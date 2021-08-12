@@ -1,0 +1,36 @@
+@import url('style-header-footer.css');
+
+#teaching a{
+	color: var(--key-color);
+}
+
+section.exp ul li b{
+	font-weight: normal;
+}
+
+section.exp ul li i{
+	display: block;
+	margin: 7px 0;
+}
+
+section div iframe{
+	width: 100%;
+	height: 100%;
+}
+
+section div{
+	margin: 50px auto;
+
+	width: 100%;
+	max-width: 640px;
+	height: 60vh;
+	max-height: 480px;
+}
+
+@media screen and (min-width: 767px){
+
+	main.main{
+		width: 700px;
+	}
+
+}
