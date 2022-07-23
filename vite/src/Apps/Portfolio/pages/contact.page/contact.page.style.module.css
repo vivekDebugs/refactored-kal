@@ -1,0 +1,68 @@
+section.contact .imgSocialMedia {
+  text-align: center;
+}
+
+section.contact .imgSocialMedia img {
+  border-radius: 50%;
+}
+
+section.contact div {
+  margin: 20px 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+section.contact .contactInfo p b {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 26px;
+  margin: 15px 0;
+}
+
+section.contact .contactInfo ul li a {
+  color: var(--text-anchor);
+  text-decoration: none;
+  word-break: break-all;
+}
+
+section.contact .contactInfo ul li a:hover {
+  text-decoration: underline;
+}
+
+section.contact .fa {
+  margin: 20px 2.5px;
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: 0.1s;
+}
+
+section.contact .fa:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+section.contact .faFacebook {
+  background: #3b5998;
+  color: white;
+}
+
+section.contact .faTwitter {
+  background: #55acee;
+  color: white;
+}
+
+section.contact .faLinkedIn {
+  background: #007bb5;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  section.contact .contactInfo {
+    margin: 20px 25px;
+  }
+}
