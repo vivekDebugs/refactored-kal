@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Outlet, Link, useLocation, NavLink } from 'react-router-dom'
 import styles from './portfolio.layout.style.module.css'
 import './portfolio.global.style.css'
@@ -10,6 +10,7 @@ import {
   FaAngleDoubleDown,
 } from 'react-icons/fa'
 import { AiOutlineMenu } from 'react-icons/ai'
+import LOGO from '../assets/logo.png'
 
 const routes = [
   {
@@ -95,6 +96,12 @@ export const PortfolioLayout = () => {
     if (!isNavActive) return
     setIsNavActive(false)
   }
+
+  useEffect(() => {
+    document.title = 'Gauri Kalnoor'
+    const FAVICON_ELEMENT = document.getElementById('favicon')
+    FAVICON_ELEMENT.href = LOGO
+  }, [])
 
   return (
     <div className={styles.body}>
