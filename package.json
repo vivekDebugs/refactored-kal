@@ -2,7 +2,7 @@
   "name": "refactored-kal",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://vivekdebugs.github.io/refactored-kal",
+  "homepage": "https://kalnoor.com/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
