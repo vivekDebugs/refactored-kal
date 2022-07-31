@@ -1,0 +1,49 @@
+.tutorialsWrapper {
+  padding: 10px 20px;
+  margin: auto;
+}
+
+.tutorialsWrapper a {
+  color: var(--dark-font);
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.tutorialsWrapper a:hover {
+  text-decoration: none;
+}
+
+.tutorialsWrapper * {
+  text-align: left !important;
+}
+
+.h2Sp {
+  color: #ff546c !important;
+}
+
+.tableContainer {
+  overflow: auto;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 10px auto;
+}
+
+th,
+td {
+  border: 1px solid var(--light-font);
+  padding: 10px;
+}
+
+th {
+  text-align: center !important;
+  color: var(--dark-font);
+}
+
+@media screen and (min-width: 768px) {
+  .tutorialsWrapper {
+    width: 75%;
+    max-width: 800px;
+  }
+}

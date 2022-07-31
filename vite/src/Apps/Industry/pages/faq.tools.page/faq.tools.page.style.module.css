@@ -1,0 +1,63 @@
+.faqToolsWrapper {
+  padding: 10px 20px;
+  margin: auto;
+}
+
+.faqBox {
+  border: 1px solid #e9e9e9;
+  border-radius: 10px;
+  transition: all 0.5s;
+
+  margin: 16px 0;
+  padding: 24px;
+}
+
+.faqBox .fa {
+  color: var(--dark-font);
+  margin: 0 6px 0 0;
+}
+
+.faqBox h5 {
+  text-align: left;
+  font-size: 18px;
+  margin: 4px 0 16px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.faqBox p {
+  margin: 8px 0 0;
+  line-height: 1.5;
+}
+
+.sources h3 {
+  text-align: left;
+}
+
+.sources a {
+  font-family: var(--font-head);
+  color: var(--dark-font);
+  transition: 0.3s;
+}
+
+.sources a:hover {
+  color: #ff546c;
+}
+
+.openResources > ul {
+  float: left;
+  list-style-type: none;
+  padding: 0 0 0 20px;
+}
+
+.openResources > ul li a:hover {
+  color: var(--dark-font);
+  transition: 0.3s;
+}
+
+@media screen and (min-width: 768px) {
+  .faqToolsWrapper {
+    width: 75%;
+    max-width: 800px;
+  }
+}

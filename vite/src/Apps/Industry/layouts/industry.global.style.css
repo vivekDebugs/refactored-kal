@@ -1,0 +1,161 @@
+/* 
+ * Imports
+ ***************************************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/* 
+ * Mixc
+ ***************************************************************/
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  line-height: 1.5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* 
+ * Global Styles
+ ***************************************************************/
+
+:root {
+  --font-head: 'Quattrocento Sans', sans-serif;
+  --font-body: 'Nunito', sans-serif;
+  --dark-font: #212529;
+  --light-font: #6c757d;
+}
+
+.industry-wrapper-main * {
+  box-sizing: border-box;
+  font-family: var(--font-body);
+  color: var(--light-font);
+}
+
+.industry-wrapper-main h1,
+.industry-wrapper-main h2,
+.industry-wrapper-main h3,
+.industry-wrapper-main h4,
+.industry-wrapper-main h5,
+.industry-wrapper-main h6 {
+  font-family: var(--font-head);
+  color: var(--dark-font);
+  text-align: center;
+}
+
+.industry-wrapper-main a {
+  text-decoration: none;
+}
+
+.industry-wrapper-main ul {
+  padding: 0 0 0 20px;
+}
+
+.industry-wrapper-main ul li {
+  margin: 10px 0;
+}
+
+.industry-wrapper-main section {
+  margin: auto;
+}
+
+.btn {
+  background-color: #ff546c;
+  border: 2px solid #ff546c;
+  border-radius: 30px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-transform: capitalize;
+  text-decoration: none;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 26px;
+  margin: 10px 16px;
+  transition: 0.5s ease;
+}
+
+.btn:hover {
+  background-color: #e6475e;
+  border-color: #e6475e;
+  color: #f3f3f3;
+}
+
+.clear {
+  clear: both;
+}
+
+.addPad {
+  padding: 10px 20px;
+  margin: auto;
+}
+
+.industry-wrapper-main .heading {
+  font-size: 45px;
+  font-weight: normal;
+  text-align: center !important;
+}
+
+.industry-wrapper-main .sub-heading {
+  padding: 10px 0 10px 30px;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: normal;
+  border-left: 6px solid #666666;
+  text-align: left !important;
+}
+
+.content-services h2,
+.content-services h3 {
+  text-align: left;
+  font-weight: normal;
+}
+
+.content-services .h-bold {
+  font-weight: bold;
+}
+
+.white-space {
+  height: 80px;
+}
+
+.content-img img {
+  width: 100%;
+}
+
+.services-content-wrapper {
+  padding: 10px 20px;
+  margin: auto;
+}
+
+.services-content-wrapper a {
+  color: var(--dark-font);
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.services-content-wrapper a:hover {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .industry-wrapper-main ul {
+    padding: 0 0 0 40px;
+  }
+
+  .services-content-wrapper {
+    width: 75%;
+    max-width: 800px;
+  }
+}
