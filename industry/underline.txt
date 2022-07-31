@@ -1,1 +1,0 @@
-document.write('<div class="designerUnderline"> <div class="line"></div> <div class="square"></div> <div class="line"></div> </div>')

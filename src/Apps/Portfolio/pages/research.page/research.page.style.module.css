@@ -1,0 +1,22 @@
+section a {
+  text-decoration: none;
+  color: var(--text-anchor);
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+section div.abstractContent {
+  border-top: 1px solid var(--base-color);
+}
+
+section div.abstractContent img {
+  width: 90%;
+  max-width: 400px;
+}
+
+section div.abstractContent h4 {
+  font-weight: normal;
+  font-size: 24px;
+}

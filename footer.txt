@@ -1,1 +1,0 @@
-document.write('<footer> &copy; 2020 - Developed by <a href="https://www.linkedin.com/in/vivekkumar1503/" target="_blank">Vivek Kumar</a>&nbsp; <b>All rights Reserved</b> </footer>')

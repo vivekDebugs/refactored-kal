@@ -1,0 +1,21 @@
+.section.exp ul li b {
+  font-weight: normal;
+}
+
+.section.exp ul li i {
+  display: block;
+  margin: 7px 0;
+}
+
+.section div iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.section div {
+  margin: 50px auto;
+  width: 100%;
+  max-width: 640px;
+  height: 60vh;
+  max-height: 480px;
+}

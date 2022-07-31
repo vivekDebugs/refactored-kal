@@ -1,0 +1,187 @@
+section.banner {
+  height: 100vh;
+  color: #ffffff;
+  background: url('../../assets/background-home.jpeg') center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.8;
+  position: relative;
+
+  padding: 80px 0;
+  margin: 0 0 60px;
+}
+
+.banner * {
+  color: #ffffff !important;
+}
+
+.bannerOverlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.banner .intro {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--font-body);
+  padding: 30px;
+  animation: banner 1.5s ease;
+}
+
+.intro h1 {
+  font-family: var(--font-head);
+  font-size: 40px !important;
+  margin: 0;
+}
+
+.intro p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.intro .ard {
+  font-family: 'Caveat', cursive;
+}
+
+.intro .bannerBtn {
+  padding: 20px;
+}
+
+.btn.customBtn {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+.btn.customBtn:hover {
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: black;
+}
+
+/* 
+homeLayout
+****************************************************************/
+
+.homeLayout {
+  margin: 10px auto;
+}
+
+.homeLayout img {
+  width: 85%;
+}
+
+.imageDiv {
+  text-align: center;
+}
+
+.vision .imageDiv {
+  float: right !important;
+}
+
+.homeLayout > div:nth-child(1),
+.homeLayout > div:nth-child(2) {
+  float: left;
+}
+
+/* 
+Features and Services
+****************************************************************/
+
+.featuresRow,
+.servicesRow {
+  margin: 25px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.featuresCol,
+.servicesCol {
+  display: block;
+  flex-basis: 25%;
+  text-align: center;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.featuresCol h4,
+.servicesCol h4 {
+  margin: 0 0 15px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.featuresCol img {
+  width: 250px;
+}
+
+.servicesCol img {
+  width: 200px;
+  transition: 0.3s ease;
+}
+
+.servicesCol img:hover {
+  transform: rotate(-2deg) scale(1.1);
+}
+
+/* 
+Contact Form
+****************************************************************/
+
+.contactForm {
+  text-align: center;
+}
+
+.contactForm input,
+textarea {
+  width: 100%;
+  height: 50px;
+  margin: 12px 0;
+  padding: 0.375rem 0.75rem;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  border-radius: 0.25rem;
+  background: #f8f9fa;
+}
+
+.contactForm textarea {
+  height: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  section.banner {
+    line-height: 2;
+  }
+
+  .intro h1 {
+    font-size: 70px;
+  }
+
+  .intro p {
+    font-size: 18px;
+  }
+
+  .bannerBtn br {
+    display: none;
+  }
+
+  .homeLayout > div {
+    width: 50%;
+  }
+
+  .homeLayout img {
+    width: 90%;
+    max-width: 400px;
+  }
+}

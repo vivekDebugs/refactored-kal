@@ -1,0 +1,25 @@
+.resourcesWrapper {
+  padding: 10px 20px;
+  margin: auto;
+}
+
+.resourcesWrapper a {
+  color: var(--dark-font);
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.resourcesWrapper a:hover {
+  text-decoration: none;
+}
+
+.resourcesWrapper * {
+  text-align: left !important;
+}
+
+@media screen and (min-width: 768px) {
+  .resourcesWrapper {
+    width: 75%;
+    max-width: 800px;
+  }
+}
